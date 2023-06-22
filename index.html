@@ -29,29 +29,28 @@
           <div class="profile-picture">
             <img src="images/account-pic.jpg" alt="user-profile-picture" />
           </div>
-          <div id="account-name"><h3>Rimbo Escobar</h3></div>
+          <div id="user-name"><span id="user-name">Rimbo Escobar</span></div>
         </div>
 
         <div id="welcome-section">
-          <div id="profile-picture">
-            <div class="profile-picture">
-              <img src="images/account-pic.jpg" alt="user-profile-picture" />
-            </div>
+          <div class="profile-picture" id="welcome-img">
+            <img src="images/account-pic.jpg" alt="user-profile-picture" />
           </div>
           <div id="welcome-msg">
-            <div id="account-name"><h3>Rimbo Escobar</h3></div>
+            <span id="welcome">Hi there,</span>
+            <span id="welcome-name">Rimbo Escobar (@rimbo)</span>
           </div>
         </div>
 
         <div id="button-container">
-          <div id="new-btn"><button>New</button></div>
-          <div id="upload-btn"><button>Upload</button></div>
-          <div id="share-btn"><button>Share</button></div>
+          <button>New</button>
+          <button>Upload</button>
+          <button>Share</button>
         </div>
       </div>
 
       <div id="sidebar">
-        <div id="title">Dashboard</div>
+        <div id="dashboard-title">Dashboard</div>
         <div id="tab-grid">
           <div class="tab" id="home-tab">
             <img class="tab-icon" src="images/home-svgrepo-com.svg" />
@@ -86,9 +85,25 @@
         </div>
       </div>
       <div id="content">
-        <div id="projects-card"></div>
-        <div id="announcements-card"></div>
-        <div id="trending-card"></div>
+        <div id="projects">
+          <div class="section-title"></div>
+          <div id="project-grid">
+            <div class="project-card"></div>
+            <div class="project-card"></div>
+            <div class="project-card"></div>
+            <div class="project-card"></div>
+            <div class="project-card"></div>
+            <div class="project-card"></div>
+          </div>
+        </div>
+        <div id="announcements">
+          <div class="section-title"></div>
+          <div id="announcements-card"></div>
+        </div>
+        <div id="trending">
+          <div class="section-title"></div>
+          <div id="trending-card"></div>
+        </div>
       </div>
     </div>
   </body>
